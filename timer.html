@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer</title>
+  <link rel="stylesheet" href="timer.css">
+  <!-- aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+  <video src="./WHATSAPP v.mp4" autoplay loop width="100%"type="video/mp4"></video>
+
+<div class="container">
+  
+  <form action="" data-aos="zoom-in" >
+    
+    <h1>Create Your Event Countdown</h1>
+
+<div class="form-count">
+ <label for="text">Event Name</label><br>
+    <input type="text" name="" id="" placeholder="Event Name"><br><br>
+</div>
+
+<div class="form-count">
+ <label for="date">Choose Event Date</label><br>
+    <input type="date" name="" id="date" value=""><br><br>
+</div>
+
+<div class="form-count">
+<button type="submit">CREATE NOW</button>
+</div>
+
+
+    
+  </form>
+</div>
+
+
+
+
+
+
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 120, // offset (in px) from the original trigger point
+  delay: 1000, // values from 0 to 3000, with step 50ms
+  duration: 1500, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  
+
+    });
+  </script>
+
+  <script src="timer.js"></script>
+</body>
+</html>

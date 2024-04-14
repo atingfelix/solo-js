@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-image: url(./WHATSAPP\ v.mp4);
+}
+
+video{
+  
+  width: 100%;
+  position: absolut;
+
+}
+
+h1{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+
+.container{
+position: relative;
+width: 100%;
+height: 100%;
+
+}
+
+form{
+  
+width: 90%;
+max-width: 450px;
+padding: px;
+position: absolute;
+left: 35%;
+transform: translate(-50%,50%);
+background-color: rgba(245, 241, 202, 0.788);
+padding: 50px 50px 70px;
+/* text-align: center; */
+
+}
+
+.form-count{
+  
+}
+
+input{
+  width: 100%;
+  padding: 7px;
+  border-radius: 60px;
+  outline: 0;
+  border: 1px solid grey;
+ 
+}
+
+button{
+  width: 100%;
+  padding: 8px;
+  border-radius: 60px;
+  background: #255325;
+  color: #ffffff;
+  border: none;
+}
+
+
+
+@media screen and (min-width: 450px){
+  video{
+    position: absolute;
+    
+  }
+  
+}
+
+
+
+
+
+
+
+
+
